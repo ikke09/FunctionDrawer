@@ -3,6 +3,7 @@
 var SCREEN_WIDTH;
 var SCREEN_HEIGHT;
 var container, scene, camera, renderer, controls;
+var Parser = exprEval.Parser; // Alias for FunctionParser
 var originalFunction; // stores f(x,y)
 var graphFunction; // function for graph calculation
 var planeFunction; // function for plane calculation
